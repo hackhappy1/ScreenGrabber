@@ -12,4 +12,5 @@ Quickly view a large number of hosted web applications.
 -o, --output   screenshot output directory
 -v, --verbose  verbose output
 `screengrabber.py -f sites.txt -t 10 -p 443,8080,8443 -v`
+
 `screengrabber.py -i 192.168.1.0/24`
