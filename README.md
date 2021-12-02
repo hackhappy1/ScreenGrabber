@@ -5,18 +5,16 @@ This tool is most helpful when you are performing an assessment on a large numbe
 Quickly view a large number of hosted web applications.
 
 # Usage
--f, --fileip   file of hostname on each line
+-f, --fileip:   file of hostname on each line
 
--i, --iplist   list of ip addresses: 192.168.1.0/24,192.168.5.36
+-i, --iplist:   list of ip addresses: 192.168.1.0/24,192.168.5.36
 
--p, --ports    ports to check: 443,8443
+-p, --ports:    ports to check: 443,8443
 
--t, --threads  number of threads
+-t, --threads:  number of threads
 
--o, --output   screenshot output directory
+-o, --output:   screenshot output directory
 
--v, --verbose  verbose output
-
+-v, --verbose:  verbose output
 `screengrabber.py -f sites.txt -t 10 -p 443,8080,8443 -v`
-
 `screengrabber.py -i 192.168.1.0/24`
