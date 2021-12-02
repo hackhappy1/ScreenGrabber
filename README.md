@@ -1,4 +1,4 @@
-# Description
+﻿# Description
 This tool is most helpful when you are performing an assessment on a large number of hosts and want to quickly view what web services are being hosted. No more loading sites one by one to see what is being hosted. Just load a text file with each host/ip on each line or specify a network range, and scan away. Screenshots will be saved into the current directory or a directory of your choosing.
 
 # Purpose
