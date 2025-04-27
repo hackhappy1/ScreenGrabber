@@ -24,6 +24,7 @@ Nmap done: 1 IP address (1 host up) scanned in 27.34 seconds
 We can see that ports 22 and 80 are both open. Let’s take a look at port 80 and see what it’s hosting.
  
 ![img](http://167.172.141.131/9743fc513fb0a1dfbfbf8d6da36d5282/Picture1.png)
+
 The message on the page says `Welcome to notes.htb` taking notice of the domain, so let’s add this to /etc/hosts file.
 ```
  echo "10.10.14.14 notes.htb" | sudo tee -a /etc/hosts
@@ -34,6 +35,7 @@ ffuf -u http://notes.htb/FUZZ -w SecLists/Discovery/Web-Content/directory-list-2
 ```
  
 ![img](http://167.172.141.131/9743fc513fb0a1dfbfbf8d6da36d5282/Picture2.png)
+
 Nothing. Since we made no progress there, let’s look for possible subdomains that may be online. Using `ffuf`, execute a subdomain enumeration on the `notes.htb` domain.
 ``` 
 ffuf -u http://notes.htb/ -w SecLists/Discovery/DNS/subdomains-top1million-110000.txt -H "Host: FUZZ.notes.htb" -fw 55
