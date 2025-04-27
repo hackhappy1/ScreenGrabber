@@ -1,6 +1,8 @@
 # Writeup
 # Enumeration
-##Nmap Scan
+## Nmap Scan
+![img](assets/fEnF5GEHIXN5NBzlK2Jkliurgv_8zShJqFqkYowuVxuS5ntLWIe8jbq1M3o1UxWQBy06eiRqOBi0DIohBcYT549vd82n8s8YWIIhkjotW-0dhAmVi3wK0V0AuNk7YYTHljDTR05Y)
+
 ```
  nmap 10.10.14.14 -p- -sC -sV -A --min-rate=1000 -T4
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-04-19 19:52 EDT
