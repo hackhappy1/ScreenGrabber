@@ -1,7 +1,7 @@
 # Writeup
 # Enumeration
 ## Nmap Scan
-![img](assets/fEnF5GEHIXN5NBzlK2Jkliurgv_8zShJqFqkYowuVxuS5ntLWIe8jbq1M3o1UxWQBy06eiRqOBi0DIohBcYT549vd82n8s8YWIIhkjotW-0dhAmVi3wK0V0AuNk7YYTHljDTR05Y)
+![img](https://png.pngtree.com/png-clipart/20230107/original/pngtree-50-south-african-rand-stack-png-image_8882421.png)
 
 ```
  nmap 10.10.14.14 -p- -sC -sV -A --min-rate=1000 -T4
