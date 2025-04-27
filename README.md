@@ -24,6 +24,8 @@ Quickly view a large number of hosted web applications.
 
  
 The message on the page says `Welcome to notes.htb` taking notice of the domain, so let’s add this to /etc/hosts file.
+
 ``` echo "10.10.14.14 notes.htb" | sudo tee -a /etc/hosts```
+
 Other than the domain name, there is nothing more useful here. Let’s see if we can locate any directories and uncover a site or application.
 ``` ffuf -u http://notes.htb/FUZZ -w SecLists/Discovery/Web-Content/directory-list-2.3-medium.txt```
