@@ -39,7 +39,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 27.34 seconds```
-We can see that ports 22 and 80 are both open. Let’s take a look at port 80 and see what it’s hosting.
+We can see that ports 22 and 80 are both open. Let’s take a look at port 80 and see what it’s hosting.```
  
 The message on the page says `Welcome to notes.htb` taking notice of the domain, so let’s add this to /etc/hosts file.
 ``` echo "10.10.14.14 notes.htb" | sudo tee -a /etc/hosts```
